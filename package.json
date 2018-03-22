@@ -1,0 +1,26 @@
+{
+  "name": "finra-scraper",
+  "version": "1.0.0",
+  "description": "Scraper for bond data on FINRA",
+  "main": "index.js",
+  "repository": "git@github.com:nikorablin/finra-scraper.git",
+  "author": "Nik Korablin <nikorablin@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "cookie": "^0.3.1",
+    "lodash": "^4.17.5",
+    "node-fetch": "^2.1.1",
+    "qs": "^6.5.1",
+    "request": "^2.85.0",
+    "stringify-object": "^3.2.2",
+    "tabletojson": "^0.7.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.9.0",
+    "prettier": "^1.11.1"
+  }
+}
